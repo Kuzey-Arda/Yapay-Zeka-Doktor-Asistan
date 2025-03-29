@@ -8,4 +8,4 @@ Kullanılan Kütüphaneler: Gradio, Google GenAI, PIL
 
 Beni Hugging Face hesabımdan da takip edebilirsiniz.
 
-![Logo](./images/Ekran Görüntüsü.png)
+![Logo](./images/image.png)
