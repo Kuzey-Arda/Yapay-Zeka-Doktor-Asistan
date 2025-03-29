@@ -78,7 +78,7 @@ with gr.Blocks(css=theme_css, theme=gr.themes.Soft()) as demo:
     """, elem_id='header')
     
     with gr.Row():
-        api_key = gr.Textbox(label="Enter your Gemini API", placeholder="Enter your Gemini API", elem_classes="gr-input")
+        api_key = gr.Textbox(label="Gemini API'nizi Giriniz", placeholder="Gemini API'nizi Giriniz", elem_classes="gr-input")
     
     with gr.Row():
         with gr.Column():
