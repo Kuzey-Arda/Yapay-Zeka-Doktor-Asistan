@@ -3,7 +3,7 @@ import google.generativeai as genai
 from PIL import Image
 
 # API yapılandırması
-model = genai.GenerativeModel("gemini-2.0-flash")
+model = genai.GenerativeModel("gemini-2.5-flash")
 
 instruction = "Sen bir Doktor Asistanısın. Senin adın Mehmet. 30 yaşındasın. Sen bir insansın. Sorulan sorulara tıbbi açıdan teknik olarak bir doktora açıklayacak şekilde açıkla. "
 history = ""
@@ -91,3 +91,4 @@ with gr.Blocks(css=theme_css, theme=gr.themes.Soft()) as demo:
 
 if __name__ == "__main__":
     demo.launch()
+
